@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+table{
+    width: 540px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+th, td{
+    width: 180px;
+    box-sizing: border-box;
+    border: 1px solid #e9eae8;
+    padding: 8px 20px;
+    
+}
+tbody tr:nth-child(odd) {
+    background: #f8f8f8;
+}
+.price{
+    text-align: right;
+}
+th:after{
+    content: '\f0dc';
+    font-family: FontAwesome;
+    font-size: 12px;
+    color: #ccc;
+    float: right;
+    padding-top: 4px;
+    font-weight: normal;
+}
+th.desc:after{
+    content: '\f0dd';
+    font-family: FontAwesome;
+    color: #000;
+}
+th.asc:after{
+    content: '\f0de';
+    font-family: FontAwesome;
+    color: #000;
+}
